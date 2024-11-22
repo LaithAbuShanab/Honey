@@ -12,7 +12,7 @@ use Spatie\MediaLibrary\HasMedia;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
-class lookup extends Model implements Sortable, HasMedia
+class Lookup extends Model implements Sortable, HasMedia
 {
     use SortableTrait, HasSlug, HasTranslations, InteractsWithMedia , SoftDeletes;
 

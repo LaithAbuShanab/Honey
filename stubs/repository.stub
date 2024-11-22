@@ -1,0 +1,18 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ model }};
+
+class {{ class }}
+{
+    public function all()
+    {
+        return {{ model }}::all();
+    }
+
+    public function find($id)
+    {
+        return {{ model }}::find($id);
+    }
+}

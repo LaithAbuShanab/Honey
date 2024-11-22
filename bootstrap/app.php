@@ -13,7 +13,7 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        $middleware->appendToGroup('api', [
+        $middleware->appendToGroup('lang', [
             LanguageApi::class,
         ]);
     })

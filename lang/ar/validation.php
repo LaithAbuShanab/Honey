@@ -189,5 +189,6 @@ return [
         'password' => 'كلمة المرور',
         'password_confirmation' => 'تاكيد كلمة المرور',
         'usernameOrEmail' => 'اسم المستخدم او البريد الالكتروني',
+        'slug' => 'سلج',
     ],
 ];

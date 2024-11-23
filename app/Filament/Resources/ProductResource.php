@@ -87,7 +87,7 @@ class ProductResource extends Resource
                                     ->minValue(0),
                                 Forms\Components\Toggle::make('is_active')
                                     ->inline(false),
-                                SpatieMediaLibraryFileUpload::make('image')->collection('products')->columnSpanFull(),
+                                SpatieMediaLibraryFileUpload::make('image')->collection('products')->columnSpanFull()->multiple(true)->panelLayout('grid'),
                             ]),
                     ]),
             ]);

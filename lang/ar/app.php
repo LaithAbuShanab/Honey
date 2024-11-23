@@ -7,4 +7,6 @@ return [
     'InvalidCredentials' => 'بيانات الدخول غير صحيحة',
     'loginSuccessfully' => 'تم تسجيل الدخول بنجاح',
     'logoutSuccessfully' => 'تم تسجيل الخروج بنجاح',
+    'success' => 'نجاح',
+    'somethingwentwrong' => 'حدث خطأ ما'
 ];

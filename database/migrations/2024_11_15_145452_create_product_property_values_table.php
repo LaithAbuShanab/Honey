@@ -16,7 +16,6 @@ return new class extends Migration
             $table->foreignId('product_id')->nullable()->constrained('products')->nullOnDelete();
             $table->foreignId('property_value_id')->nullable()->constrained('property_values')->nullOnDelete();
             $table->decimal('price_variation')->default(0.00);
-            $table->softDeletes();
             $table->timestamps();
         });
     }

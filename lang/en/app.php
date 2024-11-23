@@ -7,4 +7,6 @@ return [
     'InvalidCredentials' => 'Invalid credentials.',
     'loginSuccessfully' => 'You have successfully logged in.',
     'logoutSuccessfully' => 'You have successfully logged out.',
+    'success' => 'Success',
+    'somethingwentwrong' => 'Something went wrong',
 ];

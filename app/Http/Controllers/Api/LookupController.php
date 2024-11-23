@@ -27,7 +27,7 @@ class LookupController extends Controller
 
         try {
             $lookup = $this->lookupRepository->getBySlug($slug);
-            return ApiResponse::sendResponse(200, __('app.loginSuccessfully'), $lookup);
+            return ApiResponse::sendResponse(200, __('app.success'), $lookup);
         } catch (\Exception $e) {
             return ApiResponse::sendResponseError(401, $e->getMessage());
         }
